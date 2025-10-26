@@ -1,16 +1,96 @@
-# tugas_akhir
+# 🚘 Carrent — Aplikasi Rental Mobil Premium
 
-A new Flutter project.
+![Carrent Banner](assets/images/car_promo.jpg)
 
-## Getting Started
+### 👨‍💻 Dibuat oleh  
+**Nama:** Mayolus Gavin  
+**NIM:** A11.2024.15574  
+**Kelompok:** Mobile Pagi  
+**Prodi:** Teknik Informatika  
+**Tahun:** 2025  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🏁 Deskripsi Proyek
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Carrent** adalah aplikasi penyewaan mobil mewah berbasis **Flutter** dengan desain bertema **Dark Luxury (Hitam–Abu–Gold)**.  
+Aplikasi ini menonjolkan nuansa elegan seperti showroom mobil eksklusif — dengan animasi halus, tata letak modern, dan pengalaman pengguna yang premium.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Fitur Utama
+
+- 🔐 **Autentikasi Pengguna**
+  - Login & Sign Up dengan tombol Google, Facebook, dan Apple  
+  - Fitur *Show / Hide Password*  
+- 🚗 **Daftar Mobil Lengkap**
+  - 32 jenis mobil dengan nama, gambar, dan harga sewa per jam  
+  - Kategori mobil (Sedan, SUV, MPV, Coupe, Convertible, Pickup)
+- 💡 **Promo Banner**
+  - Tampilan promo elegan “20% OFF for your first rental”
+- 🏆 **Recommended Cars**
+  - Isuzu ELF  
+  - Range Rover SUV  
+  - Honda Civic Sedan
+- 📱 **Navigasi & Halaman**
+  - Bottom Navigation Bar (Home, Search, Notif, Profile)
+  - Halaman detail mobil, notifikasi, dan profil pengguna  
+- 💬 **Konfirmasi Logout**
+  - Popup konfirmasi muncul dari bawah layar  
+
+---
+
+
+
+## 🧩 Widget yang Digunakan
+
+Aplikasi ini menggunakan semua **widget wajib** Flutter yang diminta dalam kriteria tugas:
+
+| Widget | Keterangan |
+|--------|-------------|
+| `Container` | Struktur layout |
+| `Text` | Semua label dan deskripsi |
+| `ElevatedButton` | Tombol aksi utama |
+| `Icon` | AppBar, BottomNav, Card |
+| `Image` | Gambar mobil, logo, profil |
+| `Row` / `Column` | Layout utama |
+| `Padding` | Jarak antar elemen |
+| `ListView` | Daftar mobil |
+| `TextField` | Form login dan signup |
+| `Navigator.push` / `Navigator.pop` | Navigasi antar halaman |
+| `BottomNavigationBar` | Navigasi bawah aplikasi |
+
+
+---
+
+## 🗂️ Struktur Folder
+
+lib/
+│
+├── mainPage.dart
+├── homePage.dart
+├── loginPage.dart
+├── signupPage.dart
+├── profilPage.dart
+├── notifPage.dart
+├── searchPage.dart
+├── detailPage.dart
+├── splashScreen.dart
+└── assets/
+├── images/
+│ ├── carrent.png
+│ ├── car_1.png ... car_32.png
+│ ├── sedan.png
+│ ├── suv.png
+│ ├── elf.png
+│ ├── car_promo.jpg
+│ └── profile.jpg
+└── icons/
+├── google.png
+├── facebook.png
+└── apple.png
+
+
+---
+
+
