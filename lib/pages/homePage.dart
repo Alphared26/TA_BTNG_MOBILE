@@ -280,7 +280,38 @@ class HomePage extends StatelessWidget {
                     onTap: () => _toDetail(context, "BMW Seri 5", 850000,
                         "assets/images/car_30.png")),
               ],
-            )
+            ),
+            const SizedBox(height: 30),
+            const Text(
+              "Recommended",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+                color: Color.fromARGB(255, 0, 0, 0),
+              ),
+            ),
+            const SizedBox(height: 12),
+            _CarCard(
+              title: "Isuzu ELF",
+              price: 300000,
+              imagePath: "assets/images/elf.png",
+              onTap: () => _toDetail(
+                  context, "Isuzu ELF", 300000, "assets/images/elf.png"),
+            ),
+            _CarCard(
+              title: "Range Rover SUV",
+              price: 450000,
+              imagePath: "assets/images/suv.png",
+              onTap: () => _toDetail(
+                  context, "Range Rover SUV", 450000, "assets/images/suv.png"),
+            ),
+            _CarCard(
+              title: "Honda Civic Sedan",
+              price: 320000,
+              imagePath: "assets/images/sedan.png",
+              onTap: () => _toDetail(context, "Honda Civic Sedan", 320000,
+                  "assets/images/sedan.png"),
+            ),
           ],
         ),
       ),
@@ -362,7 +393,8 @@ class _PromoBanner extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFFD4AF37),
+                    backgroundColor: const Color.fromARGB(129, 0, 0, 0),
+               
                     shape: const StadiumBorder(),
                     padding: const EdgeInsets.symmetric(
                         horizontal: 22, vertical: 10),

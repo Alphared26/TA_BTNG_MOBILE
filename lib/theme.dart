@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color primary = Color(0xFFD4AF37); // gold
-  static const Color background = Color(0xFFF5F5F5);
+  static const Color primary = Color.fromARGB(255, 0, 0, 0); // gold
+  static const Color background = Color.fromARGB(255, 255, 255, 255);
   static const Color textDark = Color(0xFF1F1F1F);
 
   static ThemeData get theme {
     return ThemeData(
       scaffoldBackgroundColor: background,
-      colorScheme: ColorScheme.fromSeed(seedColor: primary),
+      colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 57, 57, 57)),
       fontFamily: 'Poppins',
       textTheme: const TextTheme(
         bodyLarge: TextStyle(fontSize: 16, color: textDark),

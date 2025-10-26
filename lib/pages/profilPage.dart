@@ -39,7 +39,7 @@ class ProfilePage extends StatelessWidget {
 
             ElevatedButton.icon(
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFFD4AF37),
+                backgroundColor: const Color.fromARGB(255, 123, 243, 237),
                 minimumSize: const Size(double.infinity, 48),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               ),
@@ -74,7 +74,7 @@ class ProfilePage extends StatelessWidget {
                     child: OutlinedButton(
                       onPressed: () => Navigator.pop(context),
                       style: OutlinedButton.styleFrom(
-                        side: const BorderSide(color: Color(0xFFD4AF37)),
+                        side: const BorderSide(color: Color.fromARGB(255, 120, 233, 233)),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                       ),
                       child: const Text("Batal", style: TextStyle(color: Color(0xFFD4AF37))),
@@ -92,7 +92,7 @@ class ProfilePage extends StatelessWidget {
                         );
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFFD4AF37),
+                        backgroundColor: const Color.fromARGB(255, 114, 224, 230),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                       ),
                       child: const Text("Logout", style: TextStyle(color: Colors.white)),
@@ -120,7 +120,7 @@ class _ProfileItem extends StatelessWidget {
       color: Colors.white,
       borderRadius: BorderRadius.circular(12),
       child: ListTile(
-        leading: Icon(icon, color: const Color(0xFFD4AF37)),
+        leading: Icon(icon, color: const Color.fromARGB(255, 124, 224, 239)),
         title: Text(title),
         trailing: const Icon(Icons.chevron_right),
         onTap: () {},

@@ -25,7 +25,7 @@ class NotifPage extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
               child: ListTile(
                 leading: const CircleAvatar(
-                  backgroundColor: Color(0xFFD4AF37),
+                  backgroundColor: Color.fromARGB(255, 172, 238, 254),
                   child: Icon(Icons.notifications, color: Colors.white),
                 ),
                 title: Text(it["title"]!),
