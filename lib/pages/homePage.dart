@@ -90,7 +90,7 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
             const SizedBox(height: 12),
 
-            // 30 item — path gambar kamu sesuaikan sendiri
+            
             Column(
               children: [
                 _CarCard(
@@ -333,7 +333,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// Banner promo mewah
+
 class _PromoBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -349,22 +349,22 @@ class _PromoBanner extends StatelessWidget {
           ),
         ],
       ),
-      clipBehavior: Clip.antiAlias, // biar gambar ikut border radius
+      clipBehavior: Clip.antiAlias, 
       child: Stack(
         fit: StackFit.expand,
         children: [
-          // 🔹 Gambar jadi background penuh
+         
           Image.asset(
-            'assets/images/car_promo.jpg', // ← Ganti ke path gambar kamu
+            'assets/images/car_promo.jpg', 
             fit: BoxFit.cover,
           ),
 
-          // 🔹 Lapisan gelap (overlay transparan)
+         
           Container(
-            color: Colors.black.withOpacity(0.3), // atur transparansi
+            color: Colors.black.withOpacity(0.3), 
           ),
 
-          // 🔹 Teks dan tombol di atas gambar
+       
           Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
@@ -414,7 +414,7 @@ class _PromoBanner extends StatelessWidget {
   }
 }
 
-// Card mobil
+
 class _CarCard extends StatelessWidget {
   final String title;
   final int price;
