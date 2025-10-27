@@ -1,6 +1,6 @@
 # 🚘 Carrent — Aplikasi Rental Mobil Premium
 
-![Carrent Banner](assets/images/car_promo.jpg)
+![Carrent Banner](assets/images/carrent.png)
 
 ### 👨‍💻 Dibuat oleh  
 **Nama:** Mayolus Gavin  
