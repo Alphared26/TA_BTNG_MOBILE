@@ -13,7 +13,7 @@
 
 ## 🏁 Deskripsi Proyek
 
-**Carrent** adalah aplikasi penyewaan mobil mewah berbasis **Flutter** dengan desain bertema **Dark Luxury (Hitam–Abu–Gold)**.  
+**Carrent** adalah aplikasi penyewaan mobil mewah berbasis **Flutter.** 
 Aplikasi ini menonjolkan nuansa elegan seperti showroom mobil eksklusif — dengan animasi halus, tata letak modern, dan pengalaman pengguna yang premium.
 
 ---
